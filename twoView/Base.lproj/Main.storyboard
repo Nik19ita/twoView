@@ -17,32 +17,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbT-3j-lq4">
-                                <rect key="frame" x="16" y="60" width="382" height="397"/>
+                                <rect key="frame" x="16" y="60" width="382" height="399"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDf-gD-iAY">
-                                <rect key="frame" x="16" y="471" width="382" height="405"/>
+                                <rect key="frame" x="16" y="475" width="382" height="407"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="height" secondItem="dbT-3j-lq4" secondAttribute="height" multiplier="1.01995" id="4Qy-tV-5Lx"/>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="top" secondItem="dbT-3j-lq4" secondAttribute="bottom" constant="14" id="D2e-n8-YHs"/>
-                            <constraint firstAttribute="bottom" secondItem="UDf-gD-iAY" secondAttribute="bottom" constant="16" id="Pn6-bC-TZ8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dbT-3j-lq4" secondAttribute="trailing" constant="16" id="QR6-iI-G40"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UDf-gD-iAY" secondAttribute="trailing" constant="16" id="aOH-wS-ahl"/>
-                            <constraint firstItem="dbT-3j-lq4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lPD-QG-ovd"/>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="14" id="qMJ-sq-zhS"/>
-                            <constraint firstItem="dbT-3j-lq4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="tZK-gF-UNE"/>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uef-vR-5OY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dbT-3j-lq4" secondAttribute="trailing" constant="16" id="AWa-mS-0fh"/>
+                            <constraint firstItem="dbT-3j-lq4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="JhJ-yv-OBU"/>
+                            <constraint firstItem="UDf-gD-iAY" firstAttribute="height" secondItem="dbT-3j-lq4" secondAttribute="height" multiplier="1.02015" id="ctK-vJ-Yjq"/>
+                            <constraint firstItem="UDf-gD-iAY" firstAttribute="top" secondItem="dbT-3j-lq4" secondAttribute="bottom" constant="16" id="gCn-bx-odr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UDf-gD-iAY" secondAttribute="trailing" constant="16" id="gga-yr-Nke"/>
+                            <constraint firstItem="UDf-gD-iAY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hgt-Kj-Dhz"/>
+                            <constraint firstItem="dbT-3j-lq4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hrw-33-kG4"/>
+                            <constraint firstAttribute="bottom" secondItem="UDf-gD-iAY" secondAttribute="bottom" constant="14" id="vcI-oA-EUY"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="544" y="70"/>
+            <point key="canvasLocation" x="1101" y="70"/>
         </scene>
     </scenes>
     <resources>
