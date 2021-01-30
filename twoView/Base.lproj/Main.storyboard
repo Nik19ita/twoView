@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_2" orientation="landscape" layout="splitview1_3" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,29 +13,29 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="twoView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbT-3j-lq4">
-                                <rect key="frame" x="16" y="60" width="382" height="399"/>
+                                <rect key="frame" x="16" y="16" width="288" height="378"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDf-gD-iAY">
-                                <rect key="frame" x="16" y="475" width="382" height="407"/>
+                                <rect key="frame" x="16" y="410" width="288" height="386"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dbT-3j-lq4" secondAttribute="trailing" constant="16" id="AWa-mS-0fh"/>
-                            <constraint firstItem="dbT-3j-lq4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="JhJ-yv-OBU"/>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="height" secondItem="dbT-3j-lq4" secondAttribute="height" multiplier="1.02015" id="ctK-vJ-Yjq"/>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="top" secondItem="dbT-3j-lq4" secondAttribute="bottom" constant="16" id="gCn-bx-odr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UDf-gD-iAY" secondAttribute="trailing" constant="16" id="gga-yr-Nke"/>
-                            <constraint firstItem="UDf-gD-iAY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hgt-Kj-Dhz"/>
-                            <constraint firstItem="dbT-3j-lq4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hrw-33-kG4"/>
-                            <constraint firstAttribute="bottom" secondItem="UDf-gD-iAY" secondAttribute="bottom" constant="14" id="vcI-oA-EUY"/>
+                            <constraint firstItem="UDf-gD-iAY" firstAttribute="height" secondItem="dbT-3j-lq4" secondAttribute="height" multiplier="1.02005" id="5u8-xB-zfz"/>
+                            <constraint firstItem="UDf-gD-iAY" firstAttribute="top" secondItem="dbT-3j-lq4" secondAttribute="bottom" constant="16" id="FFU-yb-BDc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dbT-3j-lq4" secondAttribute="trailing" constant="16" id="R2t-pT-oPd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UDf-gD-iAY" secondAttribute="trailing" constant="16" id="UCv-Se-ndg"/>
+                            <constraint firstAttribute="bottom" secondItem="UDf-gD-iAY" secondAttribute="bottom" constant="14" id="m9v-TL-x88"/>
+                            <constraint firstItem="dbT-3j-lq4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mQu-6Y-eHJ"/>
+                            <constraint firstItem="dbT-3j-lq4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="n0e-PM-kFQ"/>
+                            <constraint firstItem="UDf-gD-iAY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uta-qv-DN2"/>
                         </constraints>
                     </view>
                 </viewController>
